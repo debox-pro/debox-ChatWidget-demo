@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "src": "/html-umd/(.*)",
+      "dest": "/html-umd/dist/$1"
+    },
+    {
+      "src": "/html-npm/(.*)",
+      "dest": "/html-npm/dist/$1"
+    },
+    {
+      "src": "/react-npm/(.*)",
+      "dest": "/react-npm/build/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/html-npm/dist/$1"
+    }
+  ]
+}

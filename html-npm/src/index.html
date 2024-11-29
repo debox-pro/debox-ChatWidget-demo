@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>HTML npm Example</title>
+  <meta name="viewport"
+    content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+
+<body style="margin: 0">
+  <div id="app" style="min-height: 100vh; width: 100vw; word-wrap: break-word">
+    <main>
+      <div id="test-dom">
+        <h2>This is the dApp page...</h2>
+      </div>
+      <h3>Retrieve Conversation ID based on input parameters:</h3>
+      <div>
+        <input type="text" id="groupName" placeholder="Group Name" />
+        <input type="text" id="chainId" placeholder="Chain ID" />
+        <input type="text" id="contractAddress" placeholder="Contract Address" />
+        <button onclick="getConversationId()">Get Conversation ID</button>
+      </div>
+      <h3>Input Conversation ID to change the chat:</h3>
+      <div>
+        <input type="text" id="conversationInput" placeholder="Enter conversation ID here" />
+        <button onclick="setConversationFromInput()">Change Conversation</button>
+      </div>
+      <h3>Destroy the plugin:</h3>
+      <button onclick="window.DeBoxChatWidget.destroy()">Destroy</button>
+      <br />
+      <h3>Event Log:</h3>
+      <div id="events"></div>
+    </main>
+    <br />
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>

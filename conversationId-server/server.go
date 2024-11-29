@@ -31,6 +31,7 @@ func main() {
 	appSecret := os.Getenv("APP_SECRET")
 	apiKey    := os.Getenv("API_KEY")
 	appId     := os.Getenv("APP_ID")
+	PORT      := os.Getenv("PORT")
 
 	gin.SetMode(gin.ReleaseMode)
 	r := gin.Default()
@@ -116,5 +117,5 @@ func main() {
 	})
 
 	// Start server
-	r.Run(":1444")
+	r.Run(":"+PORT)
 }
