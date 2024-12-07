@@ -3,7 +3,7 @@
 Welcome to the **DeBox ChatWidget** demo repository. This repository demonstrates the usage of the ChatWidget in different environments and provides simple usage instructions.
 
 ### Usage Guide
-For detailed usage instructions and documentation, please visit: [ChatWidget Usage Guide](https://docs.debox.pro/zh/ChatWidget).
+For detailed usage instructions and documentation, please visit: [ChatWidget Usage Guide](https://docs.debox.pro/ChatWidget).
 
 ### File Structure
 The file structure of this repository is as follows:
@@ -28,8 +28,11 @@ The file structure of this repository is as follows:
    Access the demo here:  
    [HTML UMD Demo](https://debox-chat-widget-demo.vercel.app/html-umd/index.html?project_id=12345&group_name=box&chain_id=1&contract_address=0x32b77729cd87f1ef2bea4c650c16f89f08472c69).
 
-   The official umd file can be downloaded here:
-   \[[index.umd.js](https://github.com/debox-pro/debox-ChatWidget-demo/blob/main/html-umd/umd-file/index.umd.js)\] \[[License](https://github.com/debox-pro/debox-ChatWidget-demo/blob/main/html-umd/umd-file/index.umd.js.LICENSE.txt)\]
+   The umd file can be downloaded here:
+   
+   [\[unpkg\]](https://unpkg.com/@debox-pro/chat-widget-html/)
+   [\[jsdelivr\]](https://cdn.jsdelivr.net/npm/@debox-pro/chat-widget-html/)
+   [\[github\]](https://github.com/debox-pro/debox-ChatWidget-demo/tree/main/html-umd/umd-file)
 
 2. **HTML (npm)**
    This example demonstrates how to integrate the ChatWidget using npm package manager in a native HTML environment.  
